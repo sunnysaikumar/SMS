@@ -55,7 +55,7 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`userid`, `customer_name`, `address`, `contact`) VALUES
-(2, 'user', 'delhi', '8699957324');
+(2, 'user', 'delhi', '8696757324');
 
 -- --------------------------------------------------------
 
