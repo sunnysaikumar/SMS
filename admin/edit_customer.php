@@ -2,7 +2,6 @@
 	include('session.php');
 	
 	$id=$_GET['id'];
-	
 	$username=$_POST['username'];
 	$password=$_POST['password'];
 	$name=$_POST['name'];
