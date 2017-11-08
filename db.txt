@@ -1,8 +1,5 @@
 
 -- Database: `sms`
---
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `cart`
@@ -59,7 +56,6 @@ INSERT INTO `customer` (`userid`, `customer_name`, `address`, `contact`) VALUES
 
 -- --------------------------------------------------------
 
---
 -- Table structure for table `inventory`
 --
 
