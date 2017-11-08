@@ -14,7 +14,6 @@
 			
 			$inc = ($inc == 4) ? 1 : $inc+1; 
 			if($inc == 1) echo "<div class='row'>";  
-			
 			?>
 				<div class="col-lg-3">
 				<div>
