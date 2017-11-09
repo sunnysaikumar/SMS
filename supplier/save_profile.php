@@ -1,7 +1,6 @@
 <?php
 	include('session.php');
 	$uid=$_GET['id'];
-
 	$name= $_POST['cname'];
 	$address= $_POST['address'];
 	$contact= $_POST['contact'];
