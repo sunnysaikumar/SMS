@@ -1,4 +1,4 @@
-<!-- Logout -->
+
     <div class="modal fade" id="logout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -21,9 +21,7 @@
         </div>
         <!-- /.modal-dialog -->
     </div>
-<!-- /.modal -->
 
-<!-- My Account -->
     <div class="modal fade" id="account" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -60,13 +58,11 @@
 					</form>
                 </div>
             </div>
-            <!-- /.modal-content -->
+            
         </div>
-        <!-- /.modal-dialog -->
+        
     </div>
-<!-- /.modal -->
 
-<!-- Edit Profile -->
     <div class="modal fade" id="profile" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<?php
 		$cq=mysqli_query($conn,"select * from supplier left join `user` on user.userid=supplier.userid where supplier.userid='".$_SESSION['id']."'");
@@ -104,8 +100,7 @@
 					</form>
                 </div>
             </div>
-            <!-- /.modal-content -->
+            
         </div>
-        <!-- /.modal-dialog -->
+        
     </div>
-<!-- /.modal -->
