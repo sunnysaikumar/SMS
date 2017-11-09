@@ -1,4 +1,4 @@
-<!-- Add Product -->
+
     <div class="modal fade" id="addproduct" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -64,9 +64,7 @@
 			</div>
 		</div>
     </div>
-<!-- /.modal -->
 
-<!-- Add Customer -->
     <div class="modal fade" id="addcustomer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -110,9 +108,7 @@
 			</div>
 		</div>
     </div>
-<!-- /.modal -->
 
-<!-- Add Supplier -->
     <div class="modal fade" id="addsupplier" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -156,4 +152,3 @@
 			</div>
 		</div>
     </div>
-<!-- /.modal -->
