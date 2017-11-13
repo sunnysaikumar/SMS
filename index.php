@@ -30,7 +30,9 @@
 		<div style="color: red; font-size: 15px;">
 			<center>
 			<?php
-				
+				if(isset($_SESSION['msg'])){
+					echo $_SESSION['msg'];
+					unset($_SESSION['msg']);
 				
 				}
 			?>
